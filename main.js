@@ -2,6 +2,7 @@ $(function(){
  var $list = $('.todoList');
  var $input = $('.todoInput');
 
+ 
  function addTodo(text){
   var $li = $('<li>');
   var $text = $('<span class="text">').text(text);
